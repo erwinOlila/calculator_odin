@@ -16,6 +16,12 @@
 .display {
     height: 200px;
     border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 50px;
+    white-space: normal;
+    color: white;
 }
 
 .buttons-container {
@@ -37,6 +43,11 @@
     font-size: 35px;
     background-color: rgb(68, 68, 68);
     color: white;
+}
+
+.character:hover {
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
 }
 
 .longer {
